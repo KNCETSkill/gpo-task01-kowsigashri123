@@ -24,6 +24,7 @@ public class BrewSizeAdvisor {
             {
                 System.Out.Print("IV")
             }
+        }
             sc.close();
     }
 }
