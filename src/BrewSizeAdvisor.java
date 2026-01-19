@@ -7,12 +7,24 @@ public class BrewSizeAdvisor {
         Scanner sc = new Scanner(System.in);
 
         int volume = sc.nextInt();
-
-        // TODO:
-        // Print "Small", "Medium", or "Large"
-        // based on the given volume
-
-        sc.close();
+        {
+            if (volume > 350)
+            {
+                System.Out.Print("Large")
+            }
+            if else (volume >= 200 && volume <= 350)
+            {
+                System.Out.Print("Mediam")
+             }
+            if else (volume < 200)
+            {
+                System.Out.Print("Small")
+            }
+            else
+            {
+                System.Out.Print("IV")
+            }
+            sc.close();
     }
 }
 
