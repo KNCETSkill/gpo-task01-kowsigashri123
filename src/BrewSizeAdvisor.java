@@ -10,15 +10,15 @@ public class BrewSizeAdvisor {
         {
             if (volume > 350)
             {
-                System.Out.Print("Large")
+                System.out.print("Large")
             }
             if else (volume >= 200 && volume <= 350)
             {
-                System.Out.Print("Mediam")
+                System.out.print("Mediam")
              }
             if else (volume < 200)
             {
-                System.Out.Print("Small")
+                System.out.print("Small")
             }
         }
             sc.close();
