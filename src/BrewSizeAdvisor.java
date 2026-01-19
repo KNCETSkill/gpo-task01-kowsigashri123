@@ -20,10 +20,6 @@ public class BrewSizeAdvisor {
             {
                 System.Out.Print("Small")
             }
-            else
-            {
-                System.Out.Print("IV")
-            }
         }
             sc.close();
     }
