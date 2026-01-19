@@ -9,17 +9,11 @@ public class BrewSizeAdvisor {
         int volume = sc.nextInt();
         {
             if (volume > 350)
-            {
                 System.out.print("Large");
-            }
             if else (volume >= 200 && volume <= 350)
-            {
                 System.out.print("Medium");
-             }
             if else (volume < 200)
-            {
                 System.out.print("Small");
-            }
         }
             sc.close();
     }
